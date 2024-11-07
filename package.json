@@ -1,0 +1,19 @@
+{
+  "name": "telegram-google-indexing-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js",
+    "prettier": "prettier --check --ignore-unknown '**/*'",
+    "prettier:fix": "prettier --write --ignore-unknown '**/*'"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "eslint": "^9.14.0",
+    "google-auth-library": "^9.4.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.3.3"
+  }
+}
